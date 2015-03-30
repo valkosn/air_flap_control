@@ -1,0 +1,120 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALARMSEARCH	DallasTemperature.h	37;"	d
+AlarmHandler	DallasTemperature.h	/^  typedef void AlarmHandler(const uint8_t*);$/;"	t	class:DallasTemperature
+CHANGE_SERVO_TIMER	firmware.c	16;"	d	file:
+CONFIGURATION	DallasTemperature.h	44;"	d
+COPYSCRATCH	DallasTemperature.h	32;"	d
+COUNT_PER_C	DallasTemperature.h	47;"	d
+COUNT_REMAIN	DallasTemperature.h	46;"	d
+DALLASTEMPLIBVERSION	DallasTemperature.h	4;"	d
+DELTA_POS	firmware.c	24;"	d	file:
+DEVICE_DISCONNECTED_C	DallasTemperature.h	57;"	d
+DEVICE_DISCONNECTED_F	DallasTemperature.h	58;"	d
+DEVICE_DISCONNECTED_RAW	DallasTemperature.h	59;"	d
+DS1822MODEL	DallasTemperature.h	27;"	d
+DS1825MODEL	DallasTemperature.h	28;"	d
+DS18B20MODEL	DallasTemperature.h	26;"	d
+DS18S20MODEL	DallasTemperature.h	25;"	d
+DallasTemperature	DallasTemperature.cpp	/^DallasTemperature::DallasTemperature(OneWire* _oneWire)$/;"	f	class:DallasTemperature
+DallasTemperature	DallasTemperature.h	/^class DallasTemperature$/;"	c
+DallasTemperature_h	DallasTemperature.h	2;"	d
+DeviceAddress	DallasTemperature.h	/^typedef uint8_t DeviceAddress[8];$/;"	t
+EEPROM_DELAY	firmware.c	/^    EEPROM_DELAY,$/;"	e	enum:__anon1	file:
+EEPROM_ENUM	firmware.c	/^  } EEPROM_ENUM;$/;"	v	typeref:enum:__anon1
+EEPROM_THE_END	firmware.c	/^    EEPROM_THE_END$/;"	e	enum:__anon1	file:
+HIGH_ALARM_TEMP	DallasTemperature.h	42;"	d
+INTERNAL_BYTE	DallasTemperature.h	45;"	d
+LOW_ALARM_TEMP	DallasTemperature.h	43;"	d
+ONE_WIRE_BUS	firmware.c	27;"	d	file:
+READPOWERSUPPLY	DallasTemperature.h	36;"	d
+READSCRATCH	DallasTemperature.h	33;"	d
+READ_TEMPERATURE_TIMER	firmware.c	14;"	d	file:
+RECALLSCRATCH	DallasTemperature.h	35;"	d
+REQUIRESALARMS	DallasTemperature.h	18;"	d
+REQUIRESNEW	DallasTemperature.h	13;"	d
+SCRATCHPAD_CRC	DallasTemperature.h	48;"	d
+STARTCONVO	DallasTemperature.h	31;"	d
+ScratchPad	DallasTemperature.h	/^  typedef uint8_t ScratchPad[9];$/;"	t	class:DallasTemperature
+TEMP_10_BIT	DallasTemperature.h	52;"	d
+TEMP_11_BIT	DallasTemperature.h	53;"	d
+TEMP_12_BIT	DallasTemperature.h	54;"	d
+TEMP_9_BIT	DallasTemperature.h	51;"	d
+TEMP_LSB	DallasTemperature.h	40;"	d
+TEMP_MSB	DallasTemperature.h	41;"	d
+TICK_TIMER	firmware.c	13;"	d	file:
+WRITESCRATCH	DallasTemperature.h	34;"	d
+_AlarmHandler	DallasTemperature.h	/^  AlarmHandler *_AlarmHandler;$/;"	m	class:DallasTemperature
+_wire	DallasTemperature.h	/^  OneWire* _wire;$/;"	m	class:DallasTemperature
+alarmSearch	DallasTemperature.cpp	/^bool DallasTemperature::alarmSearch(uint8_t* newAddr)$/;"	f	class:DallasTemperature
+alarmSearchAddress	DallasTemperature.h	/^  uint8_t alarmSearchAddress[8];$/;"	m	class:DallasTemperature
+alarmSearchExhausted	DallasTemperature.h	/^  uint8_t alarmSearchExhausted;$/;"	m	class:DallasTemperature
+alarmSearchJunction	DallasTemperature.h	/^  char alarmSearchJunction;$/;"	m	class:DallasTemperature
+begin	DallasTemperature.cpp	/^void DallasTemperature::begin(void)$/;"	f	class:DallasTemperature
+bitResolution	DallasTemperature.h	/^  uint8_t bitResolution;$/;"	m	class:DallasTemperature
+blockTillConversionComplete	DallasTemperature.cpp	/^void DallasTemperature::blockTillConversionComplete(uint8_t bitResolution, const uint8_t* deviceAddress)$/;"	f	class:DallasTemperature
+calculateTemperature	DallasTemperature.cpp	/^int16_t DallasTemperature::calculateTemperature(const uint8_t* deviceAddress, uint8_t* scratchPad)$/;"	f	class:DallasTemperature
+change_servo_timer	firmware.c	/^byte change_servo_timer;$/;"	v
+checkForConversion	DallasTemperature.h	/^  bool checkForConversion;$/;"	m	class:DallasTemperature
+curr_pos	firmware.c	/^int curr_pos = 0;$/;"	v
+defaultAlarmHandler	DallasTemperature.cpp	/^void DallasTemperature::defaultAlarmHandler(const uint8_t* deviceAddress)$/;"	f	class:DallasTemperature
+devices	DallasTemperature.h	/^  uint8_t devices;$/;"	m	class:DallasTemperature
+getAddress	DallasTemperature.cpp	/^bool DallasTemperature::getAddress(uint8_t* deviceAddress, uint8_t index)$/;"	f	class:DallasTemperature
+getCheckForConversion	DallasTemperature.cpp	/^bool DallasTemperature::getCheckForConversion()$/;"	f	class:DallasTemperature
+getDeviceCount	DallasTemperature.cpp	/^uint8_t DallasTemperature::getDeviceCount(void)$/;"	f	class:DallasTemperature
+getHighAlarmTemp	DallasTemperature.cpp	/^char DallasTemperature::getHighAlarmTemp(const uint8_t* deviceAddress)$/;"	f	class:DallasTemperature
+getLowAlarmTemp	DallasTemperature.cpp	/^char DallasTemperature::getLowAlarmTemp(const uint8_t* deviceAddress)$/;"	f	class:DallasTemperature
+getResolution	DallasTemperature.cpp	/^uint8_t DallasTemperature::getResolution()$/;"	f	class:DallasTemperature
+getResolution	DallasTemperature.cpp	/^uint8_t DallasTemperature::getResolution(const uint8_t* deviceAddress)$/;"	f	class:DallasTemperature
+getTemp	DallasTemperature.cpp	/^int16_t DallasTemperature::getTemp(const uint8_t* deviceAddress)$/;"	f	class:DallasTemperature
+getTempC	DallasTemperature.cpp	/^float DallasTemperature::getTempC(const uint8_t* deviceAddress)$/;"	f	class:DallasTemperature
+getTempCByIndex	DallasTemperature.cpp	/^float DallasTemperature::getTempCByIndex(uint8_t deviceIndex)$/;"	f	class:DallasTemperature
+getTempF	DallasTemperature.cpp	/^float DallasTemperature::getTempF(const uint8_t* deviceAddress)$/;"	f	class:DallasTemperature
+getTempFByIndex	DallasTemperature.cpp	/^float DallasTemperature::getTempFByIndex(uint8_t deviceIndex)$/;"	f	class:DallasTemperature
+getWaitForConversion	DallasTemperature.cpp	/^bool DallasTemperature::getWaitForConversion()$/;"	f	class:DallasTemperature
+hasAlarm	DallasTemperature.cpp	/^bool DallasTemperature::hasAlarm(const uint8_t* deviceAddress)$/;"	f	class:DallasTemperature
+hasAlarm	DallasTemperature.cpp	/^bool DallasTemperature::hasAlarm(void)$/;"	f	class:DallasTemperature
+insideThermometer	firmware.c	/^DeviceAddress insideThermometer;$/;"	v
+isConnected	DallasTemperature.cpp	/^bool DallasTemperature::isConnected(const uint8_t* deviceAddress)$/;"	f	class:DallasTemperature
+isConnected	DallasTemperature.cpp	/^bool DallasTemperature::isConnected(const uint8_t* deviceAddress, uint8_t* scratchPad)$/;"	f	class:DallasTemperature
+isConversionAvailable	DallasTemperature.cpp	/^bool DallasTemperature::isConversionAvailable(const uint8_t* deviceAddress)$/;"	f	class:DallasTemperature
+isParasitePowerMode	DallasTemperature.cpp	/^bool DallasTemperature::isParasitePowerMode(void)$/;"	f	class:DallasTemperature
+loop	firmware.c	/^void loop() $/;"	f
+loop_delay	firmware.c	/^byte loop_delay = 20;$/;"	v
+millisToWaitForConversion	DallasTemperature.cpp	/^int16_t DallasTemperature::millisToWaitForConversion(uint8_t bitResolution)$/;"	f	class:DallasTemperature
+myservo	firmware.c	/^Servo myservo;  \/\/ create servo object to control a servo $/;"	v
+oneWire	firmware.c	/^DallasTemperature sensors(&oneWire);$/;"	v
+operator delete	DallasTemperature.cpp	/^void DallasTemperature::operator delete(void* p)$/;"	f	class:DallasTemperature
+operator new	DallasTemperature.cpp	/^void* DallasTemperature::operator new(unsigned int size) \/\/ Implicit NSS obj size$/;"	f	class:DallasTemperature
+parasite	DallasTemperature.h	/^  bool parasite;$/;"	m	class:DallasTemperature
+pos	firmware.c	/^int pos = 0;    \/\/ variable to store the servo position $/;"	v
+printAddress	firmware.c	/^void printAddress(DeviceAddress deviceAddress)$/;"	f
+printTemperature	firmware.c	/^void printTemperature(DeviceAddress deviceAddress)$/;"	f
+processAlarms	DallasTemperature.cpp	/^void DallasTemperature::processAlarms(void)$/;"	f	class:DallasTemperature
+rawToCelsius	DallasTemperature.cpp	/^float DallasTemperature::rawToCelsius(int16_t raw)$/;"	f	class:DallasTemperature
+rawToFahrenheit	DallasTemperature.cpp	/^float DallasTemperature::rawToFahrenheit(int16_t raw)$/;"	f	class:DallasTemperature
+readPowerSupply	DallasTemperature.cpp	/^bool DallasTemperature::readPowerSupply(const uint8_t* deviceAddress)$/;"	f	class:DallasTemperature
+readScratchPad	DallasTemperature.cpp	/^void DallasTemperature::readScratchPad(const uint8_t* deviceAddress, uint8_t* scratchPad)$/;"	f	class:DallasTemperature
+requestTemperatures	DallasTemperature.cpp	/^void DallasTemperature::requestTemperatures()$/;"	f	class:DallasTemperature
+requestTemperaturesByAddress	DallasTemperature.cpp	/^bool DallasTemperature::requestTemperaturesByAddress(const uint8_t* deviceAddress)$/;"	f	class:DallasTemperature
+requestTemperaturesByIndex	DallasTemperature.cpp	/^bool DallasTemperature::requestTemperaturesByIndex(uint8_t deviceIndex)$/;"	f	class:DallasTemperature
+resetAlarmSearch	DallasTemperature.cpp	/^void DallasTemperature::resetAlarmSearch()$/;"	f	class:DallasTemperature
+setAlarmHandler	DallasTemperature.cpp	/^void DallasTemperature::setAlarmHandler(AlarmHandler *handler)$/;"	f	class:DallasTemperature
+setCheckForConversion	DallasTemperature.cpp	/^void DallasTemperature::setCheckForConversion(bool flag)$/;"	f	class:DallasTemperature
+setHighAlarmTemp	DallasTemperature.cpp	/^void DallasTemperature::setHighAlarmTemp(const uint8_t* deviceAddress, char celsius)$/;"	f	class:DallasTemperature
+setLowAlarmTemp	DallasTemperature.cpp	/^void DallasTemperature::setLowAlarmTemp(const uint8_t* deviceAddress, char celsius)$/;"	f	class:DallasTemperature
+setResolution	DallasTemperature.cpp	/^bool DallasTemperature::setResolution(const uint8_t* deviceAddress, uint8_t newResolution)$/;"	f	class:DallasTemperature
+setResolution	DallasTemperature.cpp	/^void DallasTemperature::setResolution(uint8_t newResolution)$/;"	f	class:DallasTemperature
+setWaitForConversion	DallasTemperature.cpp	/^void DallasTemperature::setWaitForConversion(bool flag)$/;"	f	class:DallasTemperature
+setup	firmware.c	/^void setup() $/;"	f
+temperature	firmware.c	/^float temperature;$/;"	v
+temperature_timer	firmware.c	/^byte temperature_timer;$/;"	v
+toCelsius	DallasTemperature.cpp	/^float DallasTemperature::toCelsius(float fahrenheit)$/;"	f	class:DallasTemperature
+toFahrenheit	DallasTemperature.cpp	/^float DallasTemperature::toFahrenheit(float celsius)$/;"	f	class:DallasTemperature
+validAddress	DallasTemperature.cpp	/^bool DallasTemperature::validAddress(const uint8_t* deviceAddress)$/;"	f	class:DallasTemperature
+waitForConversion	DallasTemperature.h	/^  bool waitForConversion;$/;"	m	class:DallasTemperature
+writeScratchPad	DallasTemperature.cpp	/^void DallasTemperature::writeScratchPad(const uint8_t* deviceAddress, const uint8_t* scratchPad)$/;"	f	class:DallasTemperature
